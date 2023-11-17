@@ -61,19 +61,12 @@ Publish the website in the given URL.
       <button onclick="appendToDisplay('0')">0</button>
       <button onclick="appendToDisplay('00')">00</button>
       <button class="operation" onclick="appendToDisplay('.')">.</button>
-      
-
-      <button class="operation" onclick="appendToDisplay('%')">%</button>
-      
+      <button class="operation" onclick="appendToDisplay('%')">%</button>   
     </div>
   </div>
-
   <script src="calculator.js"></script>
-  
-
-</body>
+  </body>
 </html>
-
 ```
 
 ### styles.css
@@ -93,7 +86,6 @@ Publish the website in the given URL.
     margin: 0;
     background-color:rgb(199, 171, 224);
   }
-  
   .calculator {
     background:rgb(199, 171, 224);
     width: 400px;
@@ -103,7 +95,6 @@ Publish the website in the given URL.
     border-radius: 20px;
     padding: 20px;
   }
-  
   #display {
     width: 100%;
     box-sizing: border-box;
@@ -111,7 +102,6 @@ Publish the website in the given URL.
     padding: 8px;
     font-size: 2em;
   }
-  
   .buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -128,26 +118,20 @@ Publish the website in the given URL.
     border-radius: 3px;
     cursor: pointer;
   }
-  
   .operation {
     background-color: #f0f0f0;
   }
-  
   button:active, .operation:active {
     background-color: #ddd;
   }
-  
 ```
-
 ### calculator.js
 ```js
 let displayValue = '';
-
 function appendToDisplay(value) {
   displayValue += value;
   document.getElementById("display").value = displayValue;
 }
-
 function clearDisplay() {
   displayValue = '';
   document.getElementById("display").value = displayValue;
@@ -164,11 +148,9 @@ function calculate() {
     document.getElementById("display").value = "Error";
   }
 }
-
 ```
 ## OUTPUT:
 ![image](https://github.com/Kirthi-Niharika/Calc/assets/114135005/79b0f300-042a-4e02-a439-43e9152e964e)
 ![image](https://github.com/Kirthi-Niharika/Calc/assets/114135005/935be9ca-138b-41c2-b75a-4b249787442a)
-
 ## RESULT:
 The program for designing a standard calculator using HTML and CSS is executed successfully.
