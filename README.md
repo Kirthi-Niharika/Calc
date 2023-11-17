@@ -1,5 +1,5 @@
 # Ex.08 Design of a Standard Calculator
-## Date:
+## Date: 5/11/23
 
 ## AIM:
 To design a web application for a standard calculator with minimum five operations.
@@ -167,7 +167,8 @@ function calculate() {
 
 ```
 ## OUTPUT:
-![Alt text](image-1.png)
-![Alt text](image.png)
+![image](https://github.com/Kirthi-Niharika/Calc/assets/114135005/79b0f300-042a-4e02-a439-43e9152e964e)
+![image](https://github.com/Kirthi-Niharika/Calc/assets/114135005/935be9ca-138b-41c2-b75a-4b249787442a)
+
 ## RESULT:
 The program for designing a standard calculator using HTML and CSS is executed successfully.
